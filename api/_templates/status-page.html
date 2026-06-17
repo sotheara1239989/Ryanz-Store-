@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>{{TITLE}}</title>
+
+  <meta name="shopify-api-key" content="12e224fd4a57f1bc42f5a32466faf2bd">
+  <script src="https://cdn.shopify.com/shopifycloud/polaris.js"></script>
+		<style>
+			:root {
+				color-scheme: light;
+			}
+
+			* {
+				box-sizing: border-box;
+			}
+
+			body {
+				margin: 0;
+				padding: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<main>
+				<s-page>
+					<s-banner heading="{{TITLE}}" tone="{{TONE}}">
+						{{MESSAGE}}
+					</s-banner>
+				</s-page>
+		</main>
+	</body>
+</html>
